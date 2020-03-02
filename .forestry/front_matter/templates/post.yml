@@ -15,7 +15,7 @@ fields:
 - type: text
   name: author
   label: author
-  default: Hugo Authors
+  default: Thomas Kokholm
 - name: tags
   type: tag_list
   default: []
@@ -23,3 +23,8 @@ fields:
 - type: file
   name: feature_image
   label: feature_image
+- name: relayed_from
+  type: text
+  config:
+    required: false
+  label: Relayed from

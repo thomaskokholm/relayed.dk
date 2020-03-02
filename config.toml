@@ -1,62 +1,47 @@
-baseURL = "https://relayed.dk"
-title = "Relayed"
-author = "Thomas Kokholm"
-copyright = "Copyright © 2020, Thomas Kokholm."
-paginate = 3
-languageCode = "da"
 DefaultContentLanguage = "da"
+author = "Thomas Kokholm"
+baseURL = "https://relayed.dk"
+copyright = "Copyright © 2020, Thomas Kokholm."
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-
+languageCode = "da"
+paginate = 3
 theme = "casper3"
-
+title = "Relayed"
+[[menu.main]]
+identifier = "skribent"
+name = "Skribent"
+parent = "Om"
+url = "https://kokholm.org"
+weight = 2
+[[menu.main]]
+identifier = "om"
+name = "Om"
+url = "/om/"
+weight = 1
 [params]
-  twitter = "https://twitter.com/kokholmthomas"
-  github = "https://github.com/thomaskokholm"
-  description = "Tech nyheder opsumeret på Dansk"
-  mainSections = ["post"]
-
-[menu]
-  [[menu.main]]
-    identifier = "om"
-    name = "Om"
-    url = "/om/"
-    weight = 10
-  [[menu.main]]
-    identifier = "skribent"
-    name = "Skribent"
-    url = "https://kokholm.org"
-    weight = 20
-
+description = "Tech nyheder opsumeret på Dansk"
+github = "https://github.com/thomaskokholm"
+mainSections = ["post"]
+twitter = "https://twitter.com/kokholmthomas"
+[privacy.instagram]
+disabled = false
+simple = true
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+[privacy.vimeo]
+disabled = false
+simple = true
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+[services.instagram]
+disableInlineCSS = true
+[services.twitter]
+disableInlineCSS = true
 [taxonomies]
 category = "categories"
-tag = "tags"
 series = "series"
-
-[privacy]
-
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
-
+tag = "tags"
