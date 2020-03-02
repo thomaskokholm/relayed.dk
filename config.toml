@@ -11,10 +11,9 @@ footnoteReturnLinkContents = "^"
 theme = "casper3"
 
 [params]
-  facebook = "https://facebook.com"
-  twitter = "https://twitter.com"
+  twitter = "https://twitter.com/kokholmthomas"
   github = "https://github.com/thomaskokholm"
-  description = "Tech nyheder på Dansk"
+  description = "Tech nyheder opsumeret på Dansk"
   mainSections = ["post"]
 
 [menu]
