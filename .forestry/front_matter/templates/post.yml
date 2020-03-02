@@ -28,3 +28,5 @@ fields:
   config:
     required: false
   label: Relayed from
+pages:
+- content/post/edtr-io-en-intuitive-open-source-web-editor.md
